@@ -8,6 +8,7 @@ def get_fonts_cache(font_dir):
         fonts = []
         for root, dirs, files in os.walk(font_dir):
             for file in files:
+                print(f"In webui/cache.py, file={file}")
                 if file.endswith(".ttf") or file.endswith(".ttc"):
                     fonts.append(file)
         fonts.sort()

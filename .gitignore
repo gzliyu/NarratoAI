@@ -40,3 +40,4 @@ task.md
 .claude/*
 .serena/*
 CLAUDE.md
+*.ipynb_checkpoints*
